@@ -1,0 +1,29 @@
+.blue {
+  color: $logo-blue;
+}
+
+.red {
+  color: $logo-red;
+}
+
+.yellow {
+  color: $logo-yellow;
+}
+
+.green {
+  color: $logo-green;
+}
+
+.off-screen {
+  position: absolute;
+  left: -10000px;
+}
+
+.none {
+  display: none;
+  visibility: hidden;
+}
+
+.flex {
+  display: flex;
+}

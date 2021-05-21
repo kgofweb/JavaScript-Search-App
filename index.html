@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Script -->
+  <script src="./js/main.js" type="module"></script>
+  <title>Search app</title>
+</head>
+<body>
+  <main>
+    <h1 class="off-screen">Serach</h1>
+    <!-- Start Search Entry -->
+    <section class="search-entry">
+      <h2 class="off-screen">Search Team</h2>
+      <div class="logo" aria-hidden="true">
+        <span class="blue">S</span>
+        <span class="red">e</span>
+        <span class="yellow">a</span>
+        <span class="blue">r</span>
+        <span class="green">c</span>
+        <span class="red">h</span>
+      </div>
+
+      <form id="search-bar" class="search-bar" role="form">
+        <label class="off-screen" for="search">Enter a search term or phrase</label>
+        <!-- <input type="search" id="search" autocomplete="off"> -->
+        <input type="text" id="search" autocomplete="off" role="searchbox">
+
+        <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms">
+          <i class="fas fa-times"></i>
+        </div>
+
+        <button id="search-button" class="button search-button" type="submit" aria-label="Submit button">
+          <i class="fas fa-search blue"></i>
+        </button>
+      </form>
+    </section>
+    <!-- End Search Entry -->
+
+    <!-- Start Results -->
+    <section class="results">
+      <h2 class="off-screen">Search results</h2>
+      <div class="stats-bar">
+        <div id="stats" class="stats" aria-live="assertive"></div>
+      </div>
+      <div id="search-results" class="search-results">
+        <!-- <div class="results-items">
+          <div class="results-title">
+            <a href="">Dachsund</a>
+          </div>
+          <div class="results-content">
+            <div class="results-img">
+              <img src="./img/photo.jpg" alt="Dachsund">
+            </div>
+            <div class="results-text">
+              <p class="result-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eveniet odit voluptatem similique veniam incidunt.
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- End Results -->
+  </main>
+  <!-- <footer>
+    <p><span aria-hidden="true">&lt;&lt;</span>Power by <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a><span aria-hidden="true">&gt;&gt;</span></p>
+  </footer> -->
+</body>
+</html>
