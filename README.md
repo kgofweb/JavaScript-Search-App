@@ -15,9 +15,9 @@ and
     JavaScript
 
 
-In HTML u must know the bases
-For Sass u must know css bases
-And in js u must know : 
+- In HTML u must know the bases
+- For Sass u must know css bases
+- And in js u must know : 
     
     Variables
     
