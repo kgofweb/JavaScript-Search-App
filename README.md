@@ -19,10 +19,10 @@ and
 - For Sass u must know css bases
 - And in js u must know : 
     
-    Variables
+        ES6 variables (const let)
     
-    Events
+        Events 
     
-    Fetch API
+        Fetch API
     
-    async functions
+        Async functions
